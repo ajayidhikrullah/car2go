@@ -15,42 +15,42 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-pink">
         <div class="container-fluid">
 
 
 
-          <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+          <a class="navbar-brand" href="javascript:void(0)">Car2g0</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Home</a>
+                <a class="nav-link text-white" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Contact Us</a>
+                <a class="nav-link text-white" href="contactus.html">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">About Us</a>
+                <a class="nav-link text-white" href="javascript:void(0)">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Products</a>
+                <a class="nav-link text-white" href="javascript:void(0)">Products</a>
               </li>
             </ul>
 
 
             <form class="d-flex"> <!-- Search button -->
-                <button class="btn btn-primary" type="button">Search</button>
+                <button class="btn bg-primary" type="button">Search</button>
                 <input class="form-control me-2" type="text" placeholder="Kindly search for cars">
             </form>
 
             <!-- Login button and singup btn -->
             <div class="d-flex">
-                <button class="btn btn-danger" type="button" id=""><a href="login.html">Login</a></button>
+                <button class="btn bg-pink" type="button" id=""><a href="login.html">Login</a></button>
                 <br>
-                <button class="btn btn-primary" type="button"><a href="login.html">Register</a></button>
+                <button class="btn bg-pink" type="button"><a href="signin.html">Register</a></button>
             </div>
           </div>
         </div>
@@ -61,11 +61,15 @@
         <!-- Show the cars here -->
     <div class="container">
 
+        <img src="/images/honda.jpg">
+
+
+
         <div class="row">
-            <div class="col p-3 bg-primary">
+            <div class="col p-3">
 
                 <div class="card" style="width:400px" >
-                    <img class="card-img-top" src="" alt="cars images should appear here">
+                    <img class="card-img-top img-fluid" src="/images/honda.png" alt="cars images should appear here">
                     <div class="card-body">
                     <h4 class="card-title">Honda Car</h4>
                     <p class="card-text">Some Honda example.</p>
@@ -74,7 +78,7 @@
                 </div>
             </div>
                 <br>
-            <div class="col p-3 bg-primary">
+            <div class="col p-3">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="" alt="cars images should appear here">
                     <div class="card-body">
@@ -87,7 +91,7 @@
 
             <br>
 
-            <div class="col p-3 bg-primary">
+            <div class="col p-3">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="" alt="cars images should appear here">
                     <div class="card-body">
@@ -98,7 +102,7 @@
                 </div>
             </div>
 
-            <div class="col p-3 bg-primary">
+            <div class="col p-3 ">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="" alt="cars images should appear here">
                     <div class="card-body">
@@ -110,7 +114,14 @@
             </div>
 
 
+                    <!-- pagination -->
 
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+            </ul>
 
 
 
@@ -133,6 +144,28 @@
 
 
 
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          </ul>
+
+
+          <p class="col-md-4 mb-0 text-muted">&copy; 2021 dhikTechCompany, Inc</p>
+
+
+
+
+
+
+
+        </footer>
+      </div>
+      
 
 
 

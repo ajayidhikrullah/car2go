@@ -1,4 +1,16 @@
 button a{
     color: #ffffff;
     text-decoration: none;
+
+}
+
+* {
+    /* background-color: #FF007E; */
+}
+
+/* give the header a pink color */
+
+.bg-pink{
+    background-color: #FF007E;
+
 }
